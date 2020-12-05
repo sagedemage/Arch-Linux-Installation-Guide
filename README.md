@@ -40,7 +40,7 @@ List of desktop environments: https://wiki.archlinux.org/index.php/Desktop_envir
 ## You are arch linux installation is ready
 Shutdown your system
 ```
-shutdown now
+# shutdown now
 ```
 
 ## Power on your system
