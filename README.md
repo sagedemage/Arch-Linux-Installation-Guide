@@ -29,7 +29,7 @@ I will use lightdm as my display manager.
 
 ## Enable lightdm service 
 ```
-#systemctl enable lightdm
+# systemctl enable lightdm
 ```
 
 ## Install desktop environment 
