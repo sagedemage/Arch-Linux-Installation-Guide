@@ -1,6 +1,6 @@
 # Arch-Linux-Installation-Guide
 ## Setting up
-First do arch linux install guide: [Arch Linux Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide)
+First do arch linux install guide: [Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide)
 I will tell you how to do post installation of Arch linux once you install the base system. 
 
 Note: You have to chroot into the your arch linux root directory to install these packages. 
@@ -17,7 +17,7 @@ There is also wayland which is another graphical program other than xorg but I r
 ```
 
 ## Install display manager
-List of display manangers: [Display Managers](https://wiki.archlinux.org/index.php/Display_manager)
+List of display manangers: [Display Manager](https://wiki.archlinux.org/index.php/Display_manager)
 
 I will use lightdm as my display manager. 
 ```
@@ -35,7 +35,7 @@ I will use lightdm as my display manager.
 ```
 
 ## Install desktop environment 
-List of desktop environments: [Desktop Environments](https://wiki.archlinux.org/index.php/Desktop_environment)
+List of desktop environments: [Desktop Environment](https://wiki.archlinux.org/index.php/Desktop_environment)
 ```
 # pacman -S xfce4
 ```
