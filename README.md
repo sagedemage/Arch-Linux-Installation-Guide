@@ -5,6 +5,9 @@ I will tell you how to do post installation of Arch linux once you install the b
 
 Note: You have to chroot into the your arch linux root directory to install these packages. 
 
+## If you need help getting internet connection for wireless connectivety
+Check this page for help with that: [iwd](https://wiki.archlinux.org/index.php/Iwd)
+
 ## Choose the grub bootloader
 I recommend installing grub as a beginner to this installation. 
 This link will help install and configure grub for uefi or legacy systems: [Grub](https://wiki.archlinux.org/index.php/GRUB)
