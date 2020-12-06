@@ -16,6 +16,7 @@ Note: Remeber to configure grub after installing grub properly.
 
 ## Install display manager
 List of display manangers: https://wiki.archlinux.org/index.php/Display_manager
+
 I will use lightdm as my display manager. 
 ```
 # pacman -S lightdm
