@@ -1,6 +1,6 @@
 # Arch-Linux-Installation-Guide
 ## Setting up
-First do arch linux install guide: [a link](https://wiki.archlinux.org/index.php/Installation_guide)
+First do arch linux install guide: [arch linux install guide](https://wiki.archlinux.org/index.php/Installation_guide)
 I will tell you how to do post installation of Arch linux once you install the base system. 
 
 Note: You have to chroot into the your arch linux root directory to install these packages. 
