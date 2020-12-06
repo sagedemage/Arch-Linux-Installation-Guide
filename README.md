@@ -38,7 +38,7 @@ List of desktop environments: https://wiki.archlinux.org/index.php/Desktop_envir
 # pacman -S xfce4
 ```
 
-## Your arch linux installation is ready (Shutdown)
+## Your arch linux installation is ready (Poweroff)
 Shutdown your system
 ```
 # shutdown now
