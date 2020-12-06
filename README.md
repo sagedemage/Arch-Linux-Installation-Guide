@@ -7,7 +7,7 @@ Note: You have to chroot into the your arch linux root directory to install thes
 
 ## Choose the grub bootloader
 I recommend installing grub as a beginner to this installation. 
-This link will help install and configure grub for uefi or legacy systems: https://wiki.archlinux.org/index.php/GRUB
+This link will help install and configure grub for uefi or legacy systems: [grub](https://wiki.archlinux.org/index.php/GRUB)
 Note: Remeber to configure grub after installing grub properly. 
 
 ## Install xorg
@@ -17,7 +17,7 @@ There is also wayland which is another graphical program other than xorg but I r
 ```
 
 ## Install display manager
-List of display manangers: https://wiki.archlinux.org/index.php/Display_manager
+List of display manangers: [display managers](https://wiki.archlinux.org/index.php/Display_manager)
 
 I will use lightdm as my display manager. 
 ```
@@ -35,7 +35,7 @@ I will use lightdm as my display manager.
 ```
 
 ## Install desktop environment 
-List of desktop environments: https://wiki.archlinux.org/index.php/Desktop_environment
+List of desktop environments: [desktop environments](https://wiki.archlinux.org/index.php/Desktop_environment)
 ```
 # pacman -S xfce4
 ```
