@@ -11,6 +11,7 @@ This link will help install and configure grub for uefi or legacy systems: https
 Note: Remeber to configure grub after installing grub properly. 
 
 ## Install xorg
+There is also wayland which is another graphical program other than xorg but I recommend xorg. Wayland is an experiemntal graphical program so avoid it especially if you are new to arch linux. 
 ```
 # pacman -S xorg
 ```
