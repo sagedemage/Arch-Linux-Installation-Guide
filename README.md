@@ -37,6 +37,11 @@ I will use lightdm as my display manager.
 # systemctl enable lightdm
 ```
 
+## Install network manager applet 
+```
+# pacman -S network-manager-applet
+```
+
 ## Install desktop environment 
 List of desktop environments: [Desktop Environment](https://wiki.archlinux.org/index.php/Desktop_environment)
 ```
