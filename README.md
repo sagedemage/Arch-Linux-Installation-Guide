@@ -38,6 +38,7 @@ I will use lightdm as my display manager.
 ```
 
 ## Install network manager applet 
+Install this to get network manager icon tray for connecting to the wifi.
 ```
 # pacman -S network-manager-applet
 ```
