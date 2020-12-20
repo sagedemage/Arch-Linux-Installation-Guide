@@ -8,6 +8,12 @@ Note: You have to chroot into the your arch linux root directory to install thes
 ## If you need help getting internet connection for wifi
 Check this page for help with that: [iwd](https://wiki.archlinux.org/index.php/Iwd)
 
+## Adding user 
+This command automatically adds the username in wheel group. This is important for giving your username escalated priviledges. 
+```
+useradd -mg wheel username 
+```
+
 ## Choose the grub bootloader
 I recommend installing grub as a beginner to this installation. 
 This link will help install and configure grub for uefi or legacy systems: [Grub](https://wiki.archlinux.org/index.php/GRUB)
