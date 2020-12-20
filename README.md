@@ -13,6 +13,24 @@ This command automatically adds the username in wheel group. This is important f
 ```
 useradd -mg wheel username 
 ```
+## Editing the sudoers file
+file apth to sudoers file: /etc/sudoers. Lets edit the sudoers file.
+```
+nano /etc/sudoers
+```
+Look for this line and uncomment the pound sign (#) before %wheel.
+
+Before
+```
+## Uncomment to allow members of group wheel to execute any command
+#%wheel ALL=(ALL) ALL
+```
+After
+```
+## Uncomment to allow members of group wheel to execute any command
+%wheel ALL=(ALL) ALL
+```
+Now the username can execute commands with sudo. 
 
 ## Choose the grub bootloader
 I recommend installing grub as a beginner to this installation. 
