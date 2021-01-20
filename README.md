@@ -18,7 +18,7 @@ file path to sudoers file: /etc/sudoers. Lets edit the sudoers file.
 ```
 nano /etc/sudoers
 ```
-Look for this line and uncomment the pound sign (#) before %wheel.
+Look for this line and uncomment the pound sign (#) before %wheel ALL=(ALL) ALL.
 
 Before
 ```
