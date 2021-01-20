@@ -14,7 +14,7 @@ This command automatically adds the username in wheel group. This is important f
 useradd -mg wheel username 
 ```
 ## Editing the sudoers file
-file apth to sudoers file: /etc/sudoers. Lets edit the sudoers file.
+file path to sudoers file: /etc/sudoers. Lets edit the sudoers file.
 ```
 nano /etc/sudoers
 ```
