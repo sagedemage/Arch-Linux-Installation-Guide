@@ -35,7 +35,7 @@ Now the username can execute commands with sudo.
 ## Choose the grub bootloader
 I recommend installing grub as a beginner to this installation. 
 This link will help install and configure grub for uefi or legacy systems: [Grub](https://wiki.archlinux.org/index.php/GRUB)
-Note: Remeber to configure grub after installing grub properly. 
+Note: Remember to configure grub after installing grub properly. 
 
 ## Install xorg
 There is also wayland which is another graphical program other than xorg but I recommend xorg. Wayland is an experiemntal graphical program so avoid it especially if you are new to arch linux. 
