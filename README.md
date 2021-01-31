@@ -1,7 +1,7 @@
 # Arch-Linux-Installation-Guide
 
 ## About getting into Arch Linux
-I will assume you are knowledgable of linux. I would recommend you have some experience with Ubuntu or Manjaro linux distributions. Arch linux is an advance linux distribution because of its minimal nature of it. The good news is that Arch Linux installs faster than Debian from my experience. 
+I will assume you are knowledgable of linux. I would recommend you have some experience with Ubuntu or Manjaro linux distributions. Arch linux is an advance linux distribution because of its minimal nature of it. The good news is that Arch Linux installs faster than Debian from my experience. The bad news is that programs will break and you will have to figure out how to fix them in Arch Linux. I reccomend you look at the lastest news section of Arch Linux website (https://archlinux.org/). 
 
 ## Reccomendations
 1. Have some experience with 
@@ -14,7 +14,7 @@ or
 3. Install it on virtual machine with a program called virtualbox. This would give you practice to install Arch Linux on hardware. 
 
 ## Setting up
-First do arch linux install guide: [Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide)
+First do arch linux install guide: [Installation Guide] (https://wiki.archlinux.org/index.php/Installation_guide)
 I will tell you how to do post installation of Arch linux once you install the base system. 
 
 Note: You have to chroot into the your arch linux root directory to install these packages. 
@@ -23,12 +23,12 @@ Note: You have to chroot into the your arch linux root directory to install thes
 Check this page for help with that: [iwd](https://wiki.archlinux.org/index.php/Iwd)
 
 ## Adding user 
-This command automatically adds the username in wheel group. This is important for giving your username escalated priviledges. 
+This command automatically adds the user in the wheel group. This is important for giving your user escalated priviledges. 
 ```
 useradd -mg wheel username 
 ```
 ## Editing the sudoers file
-file path to sudoers file: /etc/sudoers. Lets edit the sudoers file.
+The file path to the sudoers file: /etc/sudoers. Lets edit the sudoers file.
 ```
 nano /etc/sudoers
 ```
@@ -52,7 +52,7 @@ This link will help install and configure grub for uefi or legacy systems: [Grub
 Note: Remember to configure grub after installing grub properly. 
 
 ## Install xorg
-There is also wayland which is another graphical program other than xorg but I recommend xorg. Wayland is an experiemntal graphical program so avoid it especially if you are new to arch linux. 
+The program needed to run graphical programs. 
 ```
 # pacman -S xorg
 ```
@@ -76,7 +76,7 @@ I will use lightdm as my display manager.
 ```
 
 ## Install network manager applet 
-Install this to get network manager icon tray for connecting to the wifi.
+Install this to get network manager icon tray for connecting to wifi.
 ```
 # pacman -S network-manager-applet
 ```
