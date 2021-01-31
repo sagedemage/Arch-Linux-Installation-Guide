@@ -1,7 +1,7 @@
 # Arch-Linux-Installation-Guide
 
 ## About getting into Arch Linux
-I will assume you are knowledgable of linux. I would recommend you have some experience with Ubuntu or Manjaro linux distributions. 
+I will assume you are knowledgable of linux. I would recommend you have some experience with Ubuntu or Manjaro linux distributions. Arch linux is an advance linux distribution because of its minimal nature of it. 
 
 ## Reccomendations
 1. Have some experience with 
@@ -10,6 +10,8 @@ or
 --> Manjaro
 
 2. Learn to use the terminal in linux. This will likely take some time to master it if you are not used to with it. When I started Arch Linux I had rusty terminal skills. 
+
+3. Install it on virtual machine with a program called virtualbox. This would give you practice to install Arch Linux on hardware. 
 
 ## Setting up
 First do arch linux install guide: [Installation Guide](https://wiki.archlinux.org/index.php/Installation_guide)
