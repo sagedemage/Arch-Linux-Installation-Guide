@@ -1,4 +1,4 @@
-# Arch-Linux-Installation-Guide
+# arch linux installation guide
 
 ## About getting into Arch Linux
 I will assume you are knowledgable of linux. I would recommend you have some experience with Ubuntu or Manjaro linux distributions. Arch linux is an advance linux distribution because of its minimal nature of it. The good news is that Arch Linux installs faster than Debian from my experience. The bad news is that programs will break and you will have to figure out how to fix them in Arch Linux. I reccomend you look at the lastest news section of Arch Linux website (https://archlinux.org/). 
