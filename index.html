@@ -10,6 +10,7 @@
   </style>
   <body>
       <h1> Arch Linux Installation Guide </h1>
+    
        <h2> About getting into Arch Linux </h2>
       <p> 
         I will assume you are knowledgable of linux. I would recommend you have some experience with Ubuntu or Manjaro linux distributions. 
@@ -37,10 +38,12 @@
     <p>
       Note: You have to chroot into the your arch linux root directory to install these packages.
     </p>
+    
       <h2> If you need help getting internet connection for wifi </h2>
     <p>
         Check this page for help with that: iwd
     </p>
+    
       <h2> Adding user </h2>
     <p>
       This command automatically adds the user in the wheel group. 
@@ -83,6 +86,7 @@
       This link will help install and configure grub for uefi or legacy systems: 
       Grub Note: Remember to configure grub after installing grub properly.
     </p>
+    
       <h2> Install xorg </h2>
     <p>
       The program needed to run graphical programs.
@@ -91,6 +95,7 @@
     <p class = "special">
       # pacman -S xorg
     </p>
+    
       <h2> Install display manager </h2>
     <p>
       List of display manangers: Display Manager
@@ -99,14 +104,17 @@
     <p class = "special">
     # pacman -S lightdm
     </p>
+    
       <h2> Make sure to install lightdm greeter </h2>
     <p class = "special">
     # pacman -S lightdm-gtk-greeter
     </p>
+    
       <h2> Enable lightdm service </h2>
     <p class = "special">
     # systemctl enable lightdm
     </p>
+    
       <h2> Install network manager applet </h2>
     <p>
     Install this to get network manager icon tray for connecting to wifi.
@@ -115,6 +123,7 @@
     <p class = "special">
     # pacman -S network-manager-applet
     </p>
+    
       <h2> Install desktop environment </h2>
     <p> 
       List of desktop environments: Desktop Environment
@@ -122,6 +131,7 @@
     <p class = "special">
       # pacman -S xfce4
     </p>
+    
       <h2> Your arch linux installation is ready (Poweroff) </h2>
     <p> 
       Shutdown your system 
@@ -130,6 +140,7 @@
     <p class="special">
       # shutdown now
     </p>
+    
       <h2> Power on your system </h2>
     <p>
       Your arch linux installation is finished
