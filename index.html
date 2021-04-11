@@ -55,18 +55,19 @@
     The file path to the sudoers file: /etc/sudoers. Lets edit the sudoers file.
     </p>
     <br>
-    <p>
+    <p class ="special">
       nano /etc/sudoers
     </p>
     <p>
       Look for this line and uncomment the pound sign (#) before %wheel ALL=(ALL) ALL.
     </p>
     <br>
-    <p> 
+    <p class="special"> 
       Before
       ## Uncomment to allow members of group wheel to execute any command
       #%wheel ALL=(ALL) ALL
-      
+    </p>
+    <p class = special>
       After
       ## Uncomment to allow members of group wheel to execute any command
       %wheel ALL=(ALL) ALL
@@ -83,6 +84,13 @@
       Grub Note: Remember to configure grub after installing grub properly.
     </p>
       <h2> Install xorg </h2>
+    <p>
+      The program needed to run graphical programs.
+    </p>
+    <br>
+    <p class = "special">
+      # pacman -S xorg
+    </p>
       <h2> Install display manager </h2>
       <h2> Make sure to install lightdm greeter </h2>
       <h2> Enable lightdm service </h2>
