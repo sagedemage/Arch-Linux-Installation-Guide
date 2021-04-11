@@ -4,7 +4,7 @@
     <title> Arch Linux Installation Guide </title>
   </head>
   <style>
-    p {
+    #special p {
       background-color: lightblue
     }
   </style>
@@ -47,9 +47,9 @@
       This is important for giving your user escalated priviledges.
     </p>
     <br>
-    <embed>
+    <p id="special">
       useradd -mg wheel username 
-    </embed>
+    </p>
       <h2> Editing the sudoers file </h2>
     <p>
     The file path to the sudoers file: /etc/sudoers. Lets edit the sudoers file.
