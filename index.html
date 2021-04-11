@@ -4,10 +4,6 @@
     <title> Arch Linux Installation Guide </title>
   </head>
   <style type="text/css">
-    .special {
-      background-color: lightblue
-      color: black;
-    }
     .double {
     line-height: 2
     { 
@@ -55,25 +51,25 @@
       This command automatically adds the user in the wheel group. 
       This is important for giving your user escalated priviledges.
     </p>
-    <p class="special">
+    <p>
       useradd -mg wheel username 
     </p>
       <h2> Editing the sudoers file </h2>
     <p>
     The file path to the sudoers file: /etc/sudoers. Lets edit the sudoers file.
     </p>
-    <p class ="special">
+    <p>
       nano /etc/sudoers
     </p>
     <p>
       Look for this line and uncomment the pound sign (#) before %wheel ALL=(ALL) ALL.
     </p>
-    <p class="special"> 
+    <p> 
       Before
       ## Uncomment to allow members of group wheel to execute any command
       #%wheel ALL=(ALL) ALL
     </p>
-    <p class = special>
+    <p>
       After
       ## Uncomment to allow members of group wheel to execute any command
       %wheel ALL=(ALL) ALL
@@ -95,7 +91,7 @@
     <p>
       The program needed to run graphical programs.
     </p>
-    <p class = "special">
+    <p class>
       # pacman -S xorg
     </p>
     
@@ -106,12 +102,12 @@
     <p>
       I will use lightdm as my display manager.
     </p>
-    <p class = "special">
+    <p>
     # pacman -S lightdm
     </p>
     
       <h2> Make sure to install lightdm greeter </h2>
-    <p class = "special">
+    <p>
     # pacman -S lightdm-gtk-greeter
     </p>
     
@@ -124,7 +120,7 @@
     <p>
     Install this to get network manager icon tray for connecting to wifi.
     </p>
-    <p class = "special">
+    <p>
     # pacman -S network-manager-applet
     </p>
     
@@ -132,7 +128,7 @@
     <p> 
       List of desktop environments: <a href="https://wiki.archlinux.org/index.php/Desktop_environment"> Desktop Environments </a>
     </p>
-    <p class = "special">
+    <p>
       # pacman -S xfce4
     </p>
     
@@ -140,7 +136,7 @@
     <p> 
       Shutdown your system 
     </p>
-    <p class="special">
+    <p>
       # shutdown now
     </p>
     
