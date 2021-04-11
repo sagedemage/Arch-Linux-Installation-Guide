@@ -37,8 +37,40 @@
         Check this page for help with that: iwd
     </p>
       <h2> Adding user </h2>
-    This command automatically adds the user in the wheel group. This is important for giving your user escalated priviledges.
+    <p>
+      This command automatically adds the user in the wheel group. 
+      This is important for giving your user escalated priviledges.
+    </p>
+    <br>
+    <p>
+      useradd -mg wheel username 
+    </p>
       <h2> Editing the sudoers file </h2>
+    <p>
+    The file path to the sudoers file: /etc/sudoers. Lets edit the sudoers file.
+    </p>
+    <br>
+    <p>
+      nano /etc/sudoers
+    </p>
+    <p>
+      Look for this line and uncomment the pound sign (#) before %wheel ALL=(ALL) ALL.
+    </p>
+    <br>
+    <p> 
+      Before
+      ## Uncomment to allow members of group wheel to execute any command
+      #%wheel ALL=(ALL) ALL
+      
+      After
+      ## Uncomment to allow members of group wheel to execute any command
+      %wheel ALL=(ALL) ALL
+    </p>
+    <br>
+    <p>
+      Now the username can execute commands with sudo.
+    </p>
+    
       <h2> Choose the grub bootloader </h2>
       <h2> Install xorg </h2>
       <h2> Install display manager </h2>
